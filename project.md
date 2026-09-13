@@ -42,6 +42,7 @@ Iris Dataset gồm 150 mẫu và 4 đặc trưng:
 Các mô hình được đánh giá bằng:
 
 - Accuracy
+
 # Mo ta project
 
 ## Ten de tai

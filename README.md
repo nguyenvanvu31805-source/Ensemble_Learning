@@ -22,7 +22,7 @@ Ensemble Learning ket hop nhieu model de tao du doan chung.
 - **Gradient Boosting:** Boosting bang cach them cay de giam loi dan.
 - **Voting:** soft voting giua Logistic Regression, Random Forest va SVM.
 - **Stacking:** Random Forest va Gradient Boosting lam model co so, Logistic
-	Regression lam meta-model.
+  Regression lam meta-model.
 
 Chi tiet ly thuyet nam trong [ML.md](ML.md).
 
@@ -73,13 +73,13 @@ pytest -q
 
 Bang duoi day duoc doc tu `results/comparison.csv` sau lan train hien tai:
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|---|---:|---:|---:|---:|
-| Random Forest | 0.9000 | 0.9024 | 0.9000 | 0.8997 |
-| AdaBoost | 0.9333 | 0.9333 | 0.9333 | 0.9333 |
-| Gradient Boosting | 0.9667 | 0.9697 | 0.9667 | 0.9666 |
-| Voting | 0.9667 | 0.9697 | 0.9667 | 0.9666 |
-| Stacking | 0.9667 | 0.9697 | 0.9667 | 0.9666 |
+| Model             | Accuracy | Precision | Recall | F1-Score |
+| ----------------- | -------: | --------: | -----: | -------: |
+| Random Forest     |   0.9000 |    0.9024 | 0.9000 |   0.8997 |
+| AdaBoost          |   0.9333 |    0.9333 | 0.9333 |   0.9333 |
+| Gradient Boosting |   0.9667 |    0.9697 | 0.9667 |   0.9666 |
+| Voting            |   0.9667 |    0.9697 | 0.9667 |   0.9666 |
+| Stacking          |   0.9667 |    0.9697 | 0.9667 |   0.9666 |
 
 Gradient Boosting, Voting va Stacking dat Accuracy cao nhat trong lan chia du
 lieu nay.
